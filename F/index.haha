@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RP Online</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">RP ONLINE</div>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SPORT</a></li>
+          <li><a href="#">POLITIK</a></li>
+          <li><a href="#">ADMINISTRATION</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section sport">
+    <h2 class="section-title">Sport</h2>
+    <div class="content">
+      <div class="article">
+        <img src="image1.jpg" alt="Article 1">
+        <div class="article-content">
+          <a href="article1.html" class="article-link">
+            <h3 class="article-title">Article 1</h3>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="article">
+        <img src="image2.jpg" alt="Article 2">
+        <div class="article-content">
+          <a href="article2.html" class="article-link">
+            <h3 class="article-title">Article 2</h3>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="article">
+        <img src="image3.jpg" alt="Article 3">
+        <div class="article-content">
+          <a href="article3.html" class="article-link">
+            <h3 class="article-title">Article 3</h3>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section politics">
+    <h2 class="section-title">Politik</h2>
+    <div class="content">
+      <div class="article">
+        <img src="image4.jpg" alt="Article 4">
+        <div class="article-content">
+          <a href="article4.html" class="article-link">
+            <h3 class="article-title">Article 4</h3>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="article">
+        <img src="image5.jpg" alt="Article 5">
+        <div class="article-content">
+          <a href="article5.html" class="article-link">
+            <h3 class="article-title">Article 5</h3>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="article">
+        <img src="image6.jpg" alt="Article 6">
+        <div class="article-content">
+          <a href="article6.html" class="article-link">
+            <h3 class="article-title">Article 6</h3>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2023 RP Online. All rights reserved.
+  </footer>
+</body>
+</html>

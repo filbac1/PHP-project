@@ -1,0 +1,187 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: black;
+}
+
+.header-content {
+  max-width: 1200px;
+  padding-right: 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.centered-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+
+.form-item {
+  margin-bottom: 10px;
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field-textual {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-text {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="reset"],
+button[type="submit"] {
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="reset"]:hover,
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+hr {
+  color: rgb(221, 154, 11);
+}
+
+/* New styles for the article layout */
+
+.article-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.article-image {
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.article-content {
+  flex-grow: 1;
+}
+
+.blank-space {
+  height: 20px; /* Adjust the height as needed */
+}
+
+h2 {
+  color: white;
+  text-decoration: underline;
+  background-color: orange;
+  margin-bottom: 2%;
+  padding: 2%;
+  width: 100%;
+}
+
+.centered {
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.centered2 {
+  margin: 10px auto;
+  width: 80%;
+  text-align: left;
+}
+
+.centeredSlika {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+}
+
+.clanakslika {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+}
+
+.spec {
+  margin-bottom: 10px;
+}
+
+
